@@ -1,6 +1,4 @@
-import React from "react";
-import { MdKeyboardTab, MdOutlineNavigateNext } from "react-icons/md";
-import MeSnow from "../assets/brandonsnow.png";
+import { MdOutlineNavigateNext } from "react-icons/md";
 
 const AboutMe = () => {
   return (
@@ -9,7 +7,7 @@ const AboutMe = () => {
         {/* image */}
         <div className="mb-[30px] mt-[30px] lg:mt-0">
           <img
-            src={MeSnow}
+            src="/brandonimage.png"
             alt=""
             className="h-[220px] md:h-[400px] lg:h-[400px] rounded-full"
           />

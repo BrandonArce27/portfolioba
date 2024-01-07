@@ -1,7 +1,5 @@
 import { SiJavascript } from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
-import Movie from "../assets/movieapp.png";
-import Coffee from "../assets/coffee.jpg";
 import { IoLogoFirebase } from "react-icons/io5";
 
 import {
@@ -34,7 +32,7 @@ const Project = () => {
           {/* image */}
           <div className=" ">
             <img
-              src={Movie}
+              src="movieapp.png"
               alt=""
               className="rounded-lg object-cover w-[350px] h-[250px] md:w-[550px] md:h-[450px] lg:w-[850px] lg:h-[650px] "
             />
@@ -122,7 +120,7 @@ const Project = () => {
           {/* image */}
           <div className="">
             <img
-              src={Coffee}
+              src="/coffee.jpg"
               alt=""
               className="rounded-lg object-cover w-[350px] h-[250px] md:w-[550px] md:h-[450px] lg:w-[850px] lg:h-[650px]"
             />

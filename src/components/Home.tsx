@@ -1,5 +1,4 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import Me from "../assets/brandonimage.png";
 import Cv from "../assets/cv.pdf";
 
 import { AiOutlineDownload } from "react-icons/ai";
@@ -12,7 +11,7 @@ const Home = () => {
         {/* Image */}
         <div className="animate__animated animate__fadeInLeft ">
           <img
-            src={Me}
+            src="/brandonsnow.png"
             alt=""
             className="rounded-full object-cover w-[200px] h-[250px] md:w-[300px] md:h-[350px] lg:w-[400px] lg:h-[500px]"
           />
