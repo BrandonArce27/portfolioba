@@ -120,7 +120,7 @@ const Project = () => {
           {/* image */}
           <div className="">
             <img
-              src="/coffee.jpg"
+              src="/coffee.JPG"
               alt=""
               className="rounded-lg object-cover w-[350px] h-[250px] md:w-[550px] md:h-[450px] lg:w-[850px] lg:h-[650px]"
             />
