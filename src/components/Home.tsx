@@ -30,9 +30,12 @@ const Home = () => {
           </div>
           {/* sub title */}
           <p className="mt-[40px] md:mt-[40px] font-semibold md:max-w-[580px] lg:max-w-[680px] lg:text-xl">
-            Front end developer, passionate about technology and web
-            development. I am from Costa Rica and I have a flair for crafting
-            visually appealing and user-friendly web experiences.
+            Software developer, passionate about technology and web development.
+            I am from Costa Rica and I have a flair for crafting visually
+            appealing and user-friendly web experiences. I also have experience
+            working as Azure Developer Support Engineer and I currently work in
+            this role in which I have aquired a lot of knowledge about Azure
+            Cloud and its services.
           </p>
           {/* Button bottom */}
           <div className="md:mt-[20px] flex items-center ">
