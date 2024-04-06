@@ -24,7 +24,7 @@ const Home = () => {
           {/* Big Title */}
           <div className="mt-[40px]  md:mt-[0px]">
             <h1 className="h1 md:text-8xl text-6xl font-bold md:mt-[90px]">
-              Hi! I Am
+              I Am
             </h1>
             <h1 className="h1 md:text-8xl text-6xl font-bold">Brandon Arce</h1>
           </div>
