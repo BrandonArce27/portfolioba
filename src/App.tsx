@@ -1,25 +1,19 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import NavBar from "./components/Nav";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AboutMe from "./components/AboutMe";
 import NotFound from "./components/NotFound";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
-
-// import aos : for animation
-import Aos from 'aos';
-import 'aos/dist/aos.css';
+import { Analytics } from '@vercel/analytics/react'; // Import Analytics component
 
 function App() {
-Aos.init({
-  duration:1800,
-  offset:100
-
-})
   return (
     <Router>
       <div className="App">
+        {/* Add Analytics component here */}
+        <Analytics />
         <NavBar />
         <div className="content">
           <Switch>
