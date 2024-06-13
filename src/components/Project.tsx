@@ -1,4 +1,10 @@
-import { SiJavascript } from "react-icons/si";
+import {
+  SiGraphql,
+  SiJavascript,
+  SiNestjs,
+  SiNextdotjs,
+  SiPostgresql,
+} from "react-icons/si";
 import { AiFillGithub } from "react-icons/ai";
 import { IoLogoFirebase } from "react-icons/io5";
 
@@ -76,31 +82,30 @@ const Project = () => {
         </div>
         {/* End One */}
 
-        {/* Two */}
-        {/* Element img right - text left */}
+        {/**Two */}
         <div className="flex  flex-col items-center lg:flex-row gap-x-[90px] mb-[40px] lg:mt-[170px] px-[20px] lg:px-0">
           {/* Text and others */}
           <div className="flex flex-col justify-center mt-[30px]  mb-5 lg:mt-0  ">
             {/* small title */}
-            <h3 className="text-red-500 font-bold uppercase text-[17px]">
-              Cafe Don Luis Website
+            <h3 className="text-green-800 font-bold uppercase text-[17px]">
+              DevLive Coaching Academy
             </h3>
             {/* Big title explaination */}
             <div className="max-w-[350px] md:max-w-[550px] lg:max-w-[400px]">
               <h1 className="font-semibold mb-5 text-left lg:text-xl">
-                This is an ongoing project/webpage, to present ou family coffee
-                business. Its being built using Next.js framework, Typescript,
-                Tailwindcss. With the website we are trying to reach more
-                customers and make our business more visible. Also our intention
-                is to show where our coffee comes from, how we produce and our
-                clients.
+                This is an ongoing project/webpage, for Devlive academy.The page
+                is intended to provide students with the opportunity to ask for
+                help to coaches available based on specific knowledges. It's
+                being created using the following stack : Next.js , Nest.js ,
+                GraphQl , PostgreeSQL and PrismaJS.
               </h1>
               {/* Techno use to do this one */}
               <div className="flex justify-spaceAround  my-2 gap-x-5 mb-5">
-                <FaReact className="cursor-pointer transition ease-in-out duration-500 text-blue-500 text-4xl" />
-                <TbBrandNextjs className="cursor-pointer transition ease-in-out duration-500 text-black text-4xl" />
-                <SiTypescript className="cursor-pointer transition ease-in-out duration-500 text-blue-400 text-4xl" />
-                <SiTailwindcss className="cursor-pointer transition ease-in-out duration-500 text-green-500 text-4xl" />
+                <SiNextdotjs className="cursor-pointer transition ease-in-out duration-500 text-black text-4xl" />
+                <SiNestjs className="cursor-pointer transition ease-in-out duration-500 text-red-500 text-4xl" />
+                <SiGraphql className="cursor-pointer transition ease-in-out duration-500 text-pink-600 text-4xl" />
+                <SiPostgresql className="cursor-pointer transition ease-in-out duration-500 text-blue-500 text-4xl" />
+                <SiTypescript className="cursor-pointer transition ease-in-out duration-500 text-blue-500 text-4xl" />
                 <AiFillGithub className="cursor-pointer transition ease-in-out duration-500 text-black text-4xl" />
               </div>
               {/* See */}
@@ -112,20 +117,69 @@ const Project = () => {
               >
                 See more
               </a> */}
-              <p>
-                Web page not available yet (Currently in development process)
-              </p>
+              <p>Currently in development process</p>
             </div>
           </div>
           {/* image */}
           <div className="">
             <img
-              src="/coffee.JPG"
-              alt="" 
+              src="/devlivelogo.png"
+              alt=""
               className="rounded-lg object-cover w-[350px] h-[250px] md:w-[550px] md:h-[450px] lg:w-[850px] lg:h-[650px]"
             />
           </div>
         </div>
+
+        {/* Three */}
+        {/* Element img right - text left */}
+        {/* <div className="flex  flex-col items-center lg:flex-row gap-x-[90px] mb-[40px] lg:mt-[170px] px-[20px] lg:px-0"> */}
+        {/* Text and others */}
+        {/* <div className="flex flex-col justify-center mt-[30px]  mb-5 lg:mt-0  "> */}
+        {/* small title */}
+        {/* <h3 className="text-red-500 font-bold uppercase text-[17px]">
+              Cafe Don Luis Website
+            </h3> */}
+        {/* Big title explaination */}
+        {/* <div className="max-w-[350px] md:max-w-[550px] lg:max-w-[400px]">
+              <h1 className="font-semibold mb-5 text-left lg:text-xl">
+                This is an ongoing project/webpage, to present ou family coffee
+                business. Its being built using Next.js framework, Typescript,
+                Tailwindcss. With the website we are trying to reach more
+                customers and make our business more visible. Also our intention
+                is to show where our coffee comes from, how we produce and our
+                clients.
+              </h1> */}
+        {/* Techno use to do this one */}
+        {/* <div className="flex justify-spaceAround  my-2 gap-x-5 mb-5">
+                <FaReact className="cursor-pointer transition ease-in-out duration-500 text-blue-500 text-4xl" />
+                <TbBrandNextjs className="cursor-pointer transition ease-in-out duration-500 text-black text-4xl" />
+                <SiTypescript className="cursor-pointer transition ease-in-out duration-500 text-blue-400 text-4xl" />
+                <SiTailwindcss className="cursor-pointer transition ease-in-out duration-500 text-green-500 text-4xl" />
+                <AiFillGithub className="cursor-pointer transition ease-in-out duration-500 text-black text-4xl" />
+              </div> */}
+        {/* See */}
+        {/* <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer hover:border-b transition hover:border-b-black duration-75 text-md "
+              >
+                See more
+              </a> */}
+        {/* <p>
+                Web page not available yet (Currently in development process)
+              </p>
+            </div>
+          </div> */}
+        {/* image */}
+        {/* <div className="">
+            <img
+              src="/coffee.JPG"
+              alt=""
+              className="rounded-lg object-cover w-[350px] h-[250px] md:w-[550px] md:h-[450px] lg:w-[850px] lg:h-[650px]"
+            />
+          </div>
+        </div> */}
         {/* End Two */}
       </div>
     </div>
